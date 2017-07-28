@@ -1,0 +1,41 @@
+{
+  "baseBundleVersion": "0.46.4",
+  "collections": [
+    {
+      "description": "test",
+      "globalReadAccess": false,
+      "globalWriteAccess": false,
+      "name": "some_collection",
+      "userWriteAccess": true
+    }
+  ],
+  "components": {
+    "adminWeb": {
+      "build": true,
+      "customURL": "",
+      "enabled": false
+    },
+    "api": {
+      "build": true,
+      "enabled": false
+    },
+    "attendeeWeb": {
+      "build": true,
+      "customURL": "",
+      "enabled": false
+    },
+    "mobile": {
+      "build": true,
+      "enabled": true
+    }
+  },
+  "description": "Description for bazaar_diagnostic",
+  "developer": {
+    "email": "nclark@doubledutch.me",
+    "name": "",
+    "phone": ""
+  },
+  "id": "5d5b3913-9ab3-4127-95d2-c32bfedeb1b9",
+  "name": "bazaar_diagnostic",
+  "version": "0.0.1"
+}
